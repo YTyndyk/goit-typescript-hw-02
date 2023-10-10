@@ -10,7 +10,7 @@ interface PageProps {
 }
 
 class Page extends Component<PageProps> {
-	pageInfo() {
+	pageInfo(): void {
 		console.log(this.props.title);
 	}
 }
